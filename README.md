@@ -9,4 +9,4 @@ This is a subnetting tool for IPv4 CIDR. Script is highly reliable and supports 
 This directory includes seven python scripts that validate IPv4 format using different modules as well as manually.
 
 ## proxy
-This is a simple web proxy that binds on the port 8000. By default it just forwards http traffic but the program can be extended to further process the request before sending it to the server. This is done in the `process_request` handler function which is called upon receiving any new request with the request being forwarded to it as an argument.
+This is a simple web proxy that binds on the port 8000. By default it just forwards http traffic but the program can be extended to further process the request before sending it to the server. This is done in the **process_request** handler function which is called upon receiving any new request with the request being forwarded to it as an argument.
